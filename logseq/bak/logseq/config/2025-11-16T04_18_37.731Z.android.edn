@@ -418,8 +418,4 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
- :file/name-format :triple-lowbar
- :journal/page-title-format "yyyy-MM-dd EEEE"
- :ui/show-brackets? false
- :feature/enable-whiteboards? false
- :feature/enable-flashcards? false}
+ :file/name-format :triple-lowbar}
