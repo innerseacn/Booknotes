@@ -1,0 +1,16 @@
+/* This must be the first line of the custom.css with other import rules */
+
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+
+/* You can also add other styles below to override the default theme values */
+
+/* 全局字体大小 
+html {
+  font-size: 18px; 
+} */
+
+/* 编辑器块字体 
+.ls-block {
+  font-size: 18px;
+} */
+

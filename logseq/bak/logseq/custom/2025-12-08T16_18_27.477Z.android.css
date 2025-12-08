@@ -17,7 +17,7 @@
 /* 2. 只要 .block-content 里出现含 "tags::" 的 span，就隐藏整个块 */
 .ls-linked-references-list  .ls-block:has(.block-content span[data-ref*="tags::"]){
   display: none !important;
-
+}
 
 /* 全局字体大小 
 html {

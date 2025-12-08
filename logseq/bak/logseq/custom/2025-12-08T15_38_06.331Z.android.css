@@ -1,0 +1,29 @@
+/* This must be the first line of the custom.css with other import rules */
+
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+
+/* You can also add other styles below to override the default theme values */
+
+/* ==========  隐藏 Linked References 里带 "tags::" 的行  ========== */
+/* 1. 先给这些块打标记：内容里包含 "tags::" */
+div[data-refs].ls-block[data-content*="tags::"] {
+  display: none !important;
+}
+
+/* 2. 保险：Linked References 面板里有时会用懒加载，内容异步填充，
+      监听 DOM 变化后再次隐藏 */
+.ls-linked-references-list div[data-refs].ls-block[data-content*="tags::"] {
+  display: none !important;
+}
+
+
+/* 全局字体大小 
+html {
+  font-size: 18px; 
+} */
+
+/* 编辑器块字体 
+.ls-block {
+  font-size: 18px;
+} */
+
