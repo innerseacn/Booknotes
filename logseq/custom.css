@@ -4,19 +4,6 @@
 
 /* You can also add other styles below to override the default theme values */
 
-/*  隐藏 Linked References 里出现 "tags:" 的整行块  */
-/* 1. 把高亮文字本身压成 0，防止残留占位 */
-.ls-linked-ref-content span[data-ref*="tags:"] {
-  font-size: 0 !important;
-  width: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
-  display: inline-block !important;
-}
-
-/* 2. 只要 .block-content 里出现含 "tags::" 的 span，就隐藏整个块 */
-.ls-linked-references-list  .ls-block:has(.block-content span[data-ref*="tags::"]){
-  display: none !important;
 
 
 /* 全局字体大小 
